@@ -70,6 +70,11 @@ sub complete_language_code {
 
  use Complete::Language qw(complete_language_code);
  my $res = complete_language_code(word => 'V');
- # -> [qw/va vc ve vg vi vn vu/]
+ # -> [qw/ve vi vo/]
 
-=cut
+
+=head1 SEE ALSO
+
+L<Complete::Country>
+
+L<Complete::Currency>
